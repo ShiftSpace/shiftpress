@@ -26,10 +26,8 @@ function sp_add_pages() {
 }
 
 function sp_sublevel_page() {
-
-	$dir = dirname(__FILE__);
-
-	require_once "$dir/shiftspace/server/ss-call.php";
+	
+	//require_once "../../shiftspace/server/ss-call.php";
 	echo "<h2>SS Users Test</h2>";
 
 	$shifts = json_decode(sscall(Array('method' => 'shift.get',
