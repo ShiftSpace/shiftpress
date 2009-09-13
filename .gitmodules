@@ -1,0 +1,3 @@
+[submodule "shiftspace"]
+	path = shiftspace
+	url = git://github.com/ShiftSpace/shiftspace.git
